@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Workflow, PencilRuler } from 'lucide-react';
+import { Wand2, Workflow, PenTool } from 'lucide-react';
 
 const projects = [
   {
     title: 'E-commerce Product Describer',
-    icon: <Sparkles className="h-5 w-5 text-cyan-300" />,
+    icon: <Wand2 className="h-5 w-5 text-cyan-300" />,
     tags: ['Zero-shot', 'Style control', 'SEO'],
     desc:
       'Prompt sistem untuk menghasilkan deskripsi produk yang konsisten dengan tone brand, dilengkapi guardrail kata kunci SEO.',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'Creative Story Prompt Pack',
-    icon: <PencilRuler className="h-5 w-5 text-violet-300" />,
+    icon: <PenTool className="h-5 w-5 text-violet-300" />,
     tags: ['Creative', 'Constraints', 'Narrative'],
     desc:
       'Paket prompt untuk ide cerita, world-building, dan outline bab dengan kontrol gaya dan sudut pandang.',
