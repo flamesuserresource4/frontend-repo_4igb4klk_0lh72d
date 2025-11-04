@@ -20,7 +20,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="mt-6 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 via-white/3 to-white/5 p-6 shadow-[0_0_40px_rgba(139,92,246,0.15)] backdrop-blur"
+          className="mt-6 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 via-white/10 to-white/5 p-6 shadow-[0_0_40px_rgba(139,92,246,0.15)] backdrop-blur"
         >
           <p className="text-white/90">
             Lulusan SMK, jurusan PPLG. Saya fokus pada seni merancang prompt yang

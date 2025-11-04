@@ -20,7 +20,7 @@ const ContactButton = ({ icon: Icon, label, href, color }) => (
       <span className="text-base font-semibold">{label}</span>
     </div>
     <Send className="ml-auto h-4 w-4 text-white/60 transition-transform group-hover:translate-x-1" />
-    <div className="pointer-events-none absolute inset-0 -z-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-gradient-to-r from-fuchsia-500/15 via-cyan-400/15 to-violet-500/15" />
+    <div className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-gradient-to-r from-fuchsia-500/15 via-cyan-400/15 to-violet-500/15" />
   </motion.a>
 );
 
