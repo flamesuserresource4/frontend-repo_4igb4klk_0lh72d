@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Wand2, Workflow, PenTool } from 'lucide-react';
+import { Wand2, Sparkles, PenTool, Layers } from 'lucide-react';
 
 const projects = [
   {
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'Customer Support Agent',
-    icon: <Workflow className="h-5 w-5 text-fuchsia-300" />,
+    icon: <Layers className="h-5 w-5 text-fuchsia-300" />,
     tags: ['Few-shot', 'Tool use', 'Routing'],
     desc:
       'Rangka prompt multi-langkah dengan pola percakapan, deteksi niat, dan rujukan ke basis pengetahuan.',
