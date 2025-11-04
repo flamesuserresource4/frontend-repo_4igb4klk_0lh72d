@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Wand2, Sparkles, PenTool, Layers } from 'lucide-react';
+import { Wand2, PenTool, Layers } from 'lucide-react';
 
 const projects = [
   {

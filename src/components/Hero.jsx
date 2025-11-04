@@ -6,11 +6,11 @@ const neonGradient = 'from-fuchsia-500 via-cyan-400 to-violet-500';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[90vh] w-full overflow-hidden bg-[#0a0b10] text-white">
+    <section id="home" className="relative min-h-screen w-full overflow-hidden bg-[#0a0b10] text-white">
       {/* 3D Spline Scene */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/Qe6dlWJktclXcUBS/scene.splinecode"
+          scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
